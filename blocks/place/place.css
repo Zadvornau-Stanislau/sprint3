@@ -1,0 +1,30 @@
+.place {
+  --photo-size: 460px;
+  display: grid;
+  grid-template-columns: var(--photo-size) 1fr;
+  grid-template-rows: 1fr minmax(var(--photo-size), auto);
+  gap: 48px 40px;
+}
+
+@media (max-width:1100px) {
+  .place {
+    --photo-size: 440px;
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width:900px) {
+  .place {
+    --photo-size: 340px;
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width:700px) {
+  .place {
+    --photo-size: 100%;
+    gap: 32px;
+    grid-template-columns: var(--photo-size);
+    grid-template-rows:  repeat(4, min-content);
+  }
+}

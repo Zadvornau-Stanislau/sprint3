@@ -1,0 +1,17 @@
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+@media (max-width:700px) {
+  .place__paragraphs {
+    padding: 0 var(--padding-side-size-3);
+  }
+}
+
+@media (max-width:500px) {
+  .place__paragraphs {
+    gap: 25px;
+  }
+}

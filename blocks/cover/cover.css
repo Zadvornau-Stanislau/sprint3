@@ -1,0 +1,5 @@
+.cover {
+  box-sizing: border-box;
+  width: 100%;
+  padding: calc(var(--sections-gap) + 2px) var(--padding-side-size-4) 0;
+}

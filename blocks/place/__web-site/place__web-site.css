@@ -1,0 +1,9 @@
+.place__web-site {
+  align-self: end;
+}
+
+@media (max-width:700px) {
+  .place__web-site {
+    padding: 0 var(--padding-side-size-3);
+  }
+}

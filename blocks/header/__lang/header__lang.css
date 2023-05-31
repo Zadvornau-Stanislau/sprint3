@@ -1,0 +1,21 @@
+.header__lang {
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  border-bottom: solid 2px var(--main-bg-color);
+  transition: border-bottom 0.3s;
+}
+
+.header__lang:hover {
+  border-bottom: solid 2px var(--font-color);
+}
+
+@media (max-width:700px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

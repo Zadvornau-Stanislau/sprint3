@@ -1,0 +1,4 @@
+.header {
+  display: flex;
+  padding: 0 var(--padding-side-size-1);
+}
