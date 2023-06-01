@@ -10,4 +10,5 @@
 * @font-face
 * Git
 
-Ссылка на GitHub https://github.com/Zadvornau-Stanislau/my_projects
+Ссылка на GitHub: 
+https://zadvornau-stanislau.github.io/sprint3/
