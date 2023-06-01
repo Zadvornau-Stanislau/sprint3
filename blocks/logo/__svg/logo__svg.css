@@ -1,0 +1,13 @@
+.logo__svg {
+  display: block;
+  fill: var(--font-color);
+  width: 176px;
+  height: 52px;
+}
+
+@media (max-width:500px) {
+  .logo__svg {
+    width: 142px;
+    height: 42px;
+  }
+}

@@ -7,6 +7,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  z-index: 1;
 }
 
 @media (max-width:700px) {
@@ -19,5 +20,6 @@
 @media (max-width:500px) {
   .cover__subtitle {
     padding-top: 16px;
+    max-width: 288px;
   }
 }

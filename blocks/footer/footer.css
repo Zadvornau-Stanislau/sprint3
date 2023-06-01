@@ -1,5 +1,7 @@
 .footer {
   box-sizing: border-box;
+  margin: 0 auto;
   width: 100%;
-  padding: calc(var(--sections-gap) + 2px) var(--padding-side-size-1) 0;
+  padding: var(--sections-gap) 0 0;
+  max-width: calc(100% - 2 * var(--padding-side-size-1));
 }

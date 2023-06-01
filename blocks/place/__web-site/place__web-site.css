@@ -1,5 +1,7 @@
 .place__web-site {
   align-self: end;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width:700px) {

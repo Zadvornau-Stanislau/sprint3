@@ -1,9 +1,11 @@
 .places {
-  padding: calc(var(--sections-gap) + 2px) var(--padding-side-size-3) 0;
+  margin: 0 auto;
+  padding: var(--sections-gap) 0 0;
+  max-width: calc(100% - 2 * var(--padding-side-size-3));
 }
 
 @media (max-width:700px) {
   .places {
-    padding: calc(var(--sections-gap) + 2px) 0 0;
+    padding: var(--sections-gap) 0 0;
   }
 }

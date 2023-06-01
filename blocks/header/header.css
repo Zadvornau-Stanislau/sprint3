@@ -1,4 +1,6 @@
 .header {
   display: flex;
-  padding: 0 var(--padding-side-size-1);
+  padding: 0;
+  margin: 0 auto;
+  max-width: calc(100% - 2 * var(--padding-side-size-1));
 }
